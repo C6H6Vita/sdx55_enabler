@@ -46,6 +46,8 @@ This software tested on these distros:
 - Ubuntu 22.04
 - Ubuntu 24.04
 - Fedora 37 (After full upgrade, cannot connect 5G)
+- Fedora 38
+- Fedora 39
 
 This software tested on theser hardwares:
 
