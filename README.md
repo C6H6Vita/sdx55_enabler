@@ -23,6 +23,7 @@ Supported disros:
 - Ubuntu
 - Fedora
 - Rocky Linux
+- Red Hat Enterprise Linux (RHEL)
 
 ### Detailed Information
 
@@ -51,6 +52,7 @@ This software tested on these distros:
 - Fedora 39
 - Fedora 40
 - Rocky Linux 9
+- RHEL 9.5
 
 This software tested on theser hardwares:
 

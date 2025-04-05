@@ -14,6 +14,10 @@ if [ -f /etc/os-release ]; then
 	    echo "Rocky Linux detected."
 	    sudo yum install -y libqmi-utils
 	    ;;
+	rhel)
+            echo "RHEL detected."
+	    sudo yum install -y libqmi-utils
+	    ;;
         *)
             echo "Not supported distros: $ID"
             ;;
