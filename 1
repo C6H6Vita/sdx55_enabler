@@ -10,18 +10,18 @@ if [ -f /etc/os-release ]; then
             echo "Fedora detected."
             sudo yum install -y libqmi-utils
             ;;
-        rocky)
-            echo "Rocky Linux detected."
-            sudo yum install -y libqmi-utils
-            ;;
-        rhel)
+	rocky)
+	    echo "Rocky Linux detected."
+	    sudo yum install -y libqmi-utils
+	    ;;
+	rhel)
             echo "RHEL detected."
-            sudo yum install -y libqmi-utils
-            ;;
+	    sudo yum install -y libqmi-utils
+	    ;;
         endeavouros)
             echo "EndeaverOS detected."
-            sudo pacman -S --noconfirm libqmi modemmanager
-            ;;
+	    sudo pacman -S --noconfirm libqmi ModemManager
+	    ;;
         *)
             echo "Not supported distros: $ID"
             ;;
@@ -43,14 +43,3 @@ fi
 echo "Generate link: $TARGET_LINK -> $SOURCE"
 sudo ln -sf "$SOURCE" "$TARGET_LINK"
 
-#!/bin/bash
-if [ -f /etc/os-release ]; then
-    . /etc/os-release
-    case "$ID" in
-        endeavouros)
-            echo "EndeaverOS After configuration..."
-	    sudo systemctl enable ModemManager.service
-	    sudo systemctl start ModemManager.service
-	    ;;
-    esac
-fi

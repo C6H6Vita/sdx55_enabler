@@ -24,12 +24,15 @@ Supported disros:
 - Fedora
 - Rocky Linux
 - Red Hat Enterprise Linux (RHEL)
+- EndeavourOS
 
 ### Detailed Information
 
 It automatically detects distros and install **libqmi-utils** packages for obtain **qmicli** command.
 
 After that, automatically generate symbolic link to provide fcc-unlock algorithm to modemmanager.
+
+For EndeavourOS, it installs ModemManager automatically, and register ModemManager service that runs every boot.
 
 ### How to use?
 
@@ -53,6 +56,7 @@ This software tested on these distros:
 - Fedora 40
 - Rocky Linux 9
 - RHEL 9.5
+- EndeavourOS (25. 04 . 06 rolling release)
 
 This software tested on theser hardwares:
 
