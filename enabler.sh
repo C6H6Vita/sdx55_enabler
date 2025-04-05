@@ -10,6 +10,10 @@ if [ -f /etc/os-release ]; then
             echo "Fedora detected."
             sudo yum install -y libqmi-utils
             ;;
+	rocky)
+	    echo "Rocky Linux detected."
+	    sudo yum install -y libqmi-utils
+	    ;;
         *)
             echo "Not supported distros: $ID"
             ;;

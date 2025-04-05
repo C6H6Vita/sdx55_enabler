@@ -22,6 +22,7 @@ Supported disros:
 
 - Ubuntu
 - Fedora
+- Rocky Linux
 
 ### Detailed Information
 
@@ -49,6 +50,7 @@ This software tested on these distros:
 - Fedora 38
 - Fedora 39
 - Fedora 40
+- Rocky Linux 9
 
 This software tested on theser hardwares:
 
@@ -61,3 +63,5 @@ This software tested on theser hardwares:
 ![](./MDResource/Screenshot_20250406_014603.png)
 
 ![](./MDResource/Screenshot_2025-04-05_17-24-01.png)
+
+![](./MDResource/Screenshot_2025-04-05_16-04-06.png)
