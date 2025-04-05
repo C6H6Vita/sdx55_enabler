@@ -44,6 +44,7 @@ You will need to take a reboot after running **./enabler.sh** command.
 This software tested on these distros:
 
 - Ubuntu 22.04
+- Ubuntu 24.04
 
 This software tested on theser hardwares:
 
@@ -54,3 +55,5 @@ This software tested on theser hardwares:
 ### Screenshot
 
 ![](./MDResource/Screenshot_20250406_014603.png)
+
+![](./MDResource/Screenshot_2025-04-05 17-24-01.png)
